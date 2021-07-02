@@ -1,0 +1,5 @@
+ #!/bin/csh
+ setenv  INFILE1   /data1/lihl/models-3/m3mask/YRD_NEW/YRD.nc_0.5/AH.nc 
+ setenv OUTFILE /data1/lihl/models-3/m3merge/YRD44/YRD44_test.nc             # <outfile>   <path name>
+    set EXEC = /data/home/huangling/local/ioapi-3.2/Linux2_x86_64ifort/m3merge
+    $EXEC
